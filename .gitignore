@@ -1,0 +1,29 @@
+.idea
+.history
+.vscode
+.DS_Store
+
+# Các folder không push lên git
+models/
+output/
+mongolia_dataset/
+*.pt
+*.ckpt
+*.bin
+*.mp3
+*.wav
+*.zip
+*.tar
+*.tar.gz
+swedish_dataset/
+
+# Ignore môi trường ảo python
+env/
+ds313/
+.venv/
+*.egg-info
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
