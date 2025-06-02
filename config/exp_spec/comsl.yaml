@@ -7,9 +7,9 @@ use_acti_ckpt: false
 num_nodes: 1
 monitor: val_bleu_spch_epoch
 ckpt_name: "checkpoint-{epoch:02d}-{val_bleu_spch_epoch:.2f}"
-data_root: /kaggle/input/lv-dataset/lv_dataset # sửa ở đây 
+data_root: /kaggle/input/sl-dataset/sl_dataset # sửa ở đây 
 cv_data_root: null # được sử dụng nếu bạn muốn sử dụng thêm “pseudo data” hoặc bổ sung dữ liệu ngoài CoVoST2
-output_dir: /kaggle/working/DS313_ComSL/output/comsl_lv2en
+output_dir: /kaggle/working/DS313_ComSL/output/comsl_sl2en
 
 warmup_steps: 5000
 batch_size: 1
@@ -63,10 +63,10 @@ avail_lang: # sửa ở đây
 # - turkish
 # - arabic
 # - swedish
-- latvian
+# - latvian
 # - tamil
 # - japanese
 # - indonesian
-# - slovenian
+- slovenian
 # - welsh
 # - catalan
