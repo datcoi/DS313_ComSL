@@ -36,11 +36,11 @@ avail_lang: # sua ở đây
 # - persian
 # - estonian
 # - mongolian
-# - dutch
+- dutch
 # - turkish
 # - arabic
 # - swedish
-- latvian
+# - latvian
 # - tamil
 # - japanese
 # - indonesian
