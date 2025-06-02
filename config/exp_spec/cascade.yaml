@@ -32,11 +32,11 @@ avail_lang: # sửa ở đây
 # - turkish
 # - arabic
 # - swedish
-- latvian
+# - latvian
 # - tamil
 # - japanese
 # - indonesian
-# - slovenian
+- slovenian
 # - welsh
 # - catalan
 
